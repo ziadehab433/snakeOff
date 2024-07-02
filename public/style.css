@@ -1,0 +1,28 @@
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#707070;
+}
+
+.gameContainer { 
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(80, 1fr);
+}
+
+.snake { 
+    background-color: rgb(66, 141, 66)
+}
+
+.apple { 
+    background-color: rgb(170, 30, 30)
+}
+
+.pixel { 
+    background-color: white
+}
